@@ -52,7 +52,7 @@ class App extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => HomePage(),
-        '/rooster': (context) => Rooster(),
+        '/rooster': (context) => RoosterPage(),
         '/chatruimte': (context) => ChatRuimte(),
         '/catalog': (context) => MyCatalog(),
         '/cart': (context) => MyCart(),
